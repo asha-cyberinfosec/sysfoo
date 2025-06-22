@@ -6,11 +6,10 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
-      - name: my-step
-        run: echo "Secret Scanning"
       - name: Secret Scanning
-        run: echo "SAST"
+        run: echo "Secret Scanning"
       - name: SAST
+        run: echo "SAST"
         run: echo "Docker Image"
       - name: Docker Image
         run: echo "DockerHub"
